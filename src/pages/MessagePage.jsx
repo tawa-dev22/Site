@@ -104,9 +104,7 @@ export function MessagePage() {
           <p className="m-0 text-[15px] font-bold text-rose-500/80 uppercase tracking-wider leading-none">
             With all my love, forever & always,
           </p>
-          <p className="m-0 mt-1 accent-script text-pink-500 text-6xl select-none leading-none">
-            Your Valentine 💖
-          </p>
+
         </div>
 
         {/* Call to Action Button */}
