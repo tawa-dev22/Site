@@ -4,6 +4,7 @@ import { FloatingHearts } from './components/FloatingHearts.jsx'
 import { PageTransition } from './components/PageTransition.jsx'
 import { LoveCursor } from './components/LoveCursor.jsx'
 import { BackgroundAudio } from './components/BackgroundAudio.jsx'
+import { Navbar } from './components/Navbar.jsx'
 import { HomePage } from './pages/HomePage.jsx'
 import { PicturesPage } from './pages/PicturesPage.jsx'
 import { MessagePage } from './pages/MessagePage.jsx'
@@ -17,8 +18,9 @@ export default function App() {
         <LoveCursor />
         <FloatingHearts />
         <BackgroundAudio />
+        <Navbar />
         <main
-          className="relative z-[1] w-full max-w-[1100px] mx-auto px-5 sm:px-6 pt-8 sm:pt-12 pb-16 flex-1"
+          className="relative z-[1] w-full max-w-[1100px] mx-auto px-5 sm:px-6 pt-8 sm:pt-12 pb-28 sm:pb-32 flex-1"
           aria-label="Main content"
         >
           {/* key ensures fresh entrance animation per route */}
