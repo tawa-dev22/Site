@@ -44,7 +44,7 @@ export function PicturesPage() {
     () => [
       {
         src: img1,
-        caption: 'Our Start 🌸',
+        caption: 'Your Start 🌸',
         description: 'The very moment our paths crossed and my world turned into beautiful, vibrant color. Every second since has been a beautiful reminder of how magical life became the instant you stepped into it. I treasure this memory above all else.'
       },
       {
@@ -222,11 +222,11 @@ export function PicturesPage() {
             }}
           >
             {/* Polaroid frame image wrapper */}
-            <div className="relative rounded-[14px] overflow-hidden flex-1 aspect-[4/3] flex items-center justify-center border border-rose-100/40">
+            <div className="relative rounded-[14px] overflow-hidden flex-1 aspect-[4/3] flex items-center justify-center border border-rose-100/40 bg-rose-50/10">
               <ImageWithSkeleton
                 src={p.src}
                 alt={p.caption}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
               />
 
               {/* Pulsing overlay icon */}
@@ -274,11 +274,11 @@ export function PicturesPage() {
             {/* Lightbox content (swaps with animation) */}
             <div className="lightbox-content w-full flex flex-col items-center">
               {/* Photo Frame */}
-              <div className="w-full aspect-[4/3] rounded-xl overflow-hidden shadow-inner border border-rose-50/50 bg-rose-50/20 max-h-[360px] flex items-center justify-center">
+              <div className="w-full aspect-[4/3] rounded-xl overflow-hidden shadow-inner border border-rose-50/50 bg-rose-50/30 max-h-[360px] flex items-center justify-center">
                 <img
                   src={photos[activePhotoIndex].src}
                   alt={photos[activePhotoIndex].caption}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
 

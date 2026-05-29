@@ -192,7 +192,7 @@ export function HomePage() {
 
           {/* Proposal Header */}
           <h1 ref={titleRef} className="mt-1 text-[clamp(28px,4.5vw,52px)] tracking-[-0.04em] leading-[1.08] font-extrabold text-[#3d132c]">
-            Will you be my Valentine, <br />today & always? <span className="inline-block animate-pulse" aria-hidden="true">💖</span>
+            Will you be My Love <br />today & always? <span className="inline-block animate-pulse" aria-hidden="true">💖</span>
           </h1>
 
           {/* Adaptive Teaser Text */}
