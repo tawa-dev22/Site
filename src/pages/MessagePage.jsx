@@ -115,7 +115,7 @@ export function MessagePage() {
           }}
         >
           <AnimatedButton variant="yes" onClick={() => navigate('/pictures')}>
-            Explore Our Memories <span aria-hidden="true">📸</span>
+            Explore the beautiful moments <span aria-hidden="true">📸</span>
           </AnimatedButton>
         </div>
       </div>
