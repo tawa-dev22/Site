@@ -18,7 +18,7 @@ export default function App() {
         <LoveCursor />
         <FloatingHearts />
         <BackgroundAudio />
-        <Navbar />
+        {location.pathname !== '/' && <Navbar />}
         <main
           className="relative z-[1] w-full max-w-[1100px] mx-auto px-5 sm:px-6 pt-8 sm:pt-12 pb-28 sm:pb-32 flex-1"
           aria-label="Main content"

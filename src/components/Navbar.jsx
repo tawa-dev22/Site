@@ -8,7 +8,7 @@ export function Navbar() {
   const navRef = useRef(null)
 
   const items = [
-    { path: '/', label: 'Home', icon: '🏠' },
+    
     { path: '/message', label: 'Our Letter', icon: '💌' },
     { path: '/pictures', label: 'Memories', icon: '📸' },
   ]

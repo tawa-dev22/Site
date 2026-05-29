@@ -202,7 +202,7 @@ export function PicturesPage() {
     <section ref={rootRef} className="pt-4 sm:pt-6">
       <div className="mb-6 sm:mb-8">
         <h1 className="m-0 text-[clamp(28px,4.2vw,44px)] tracking-[-0.03em] font-extrabold text-[#3d132c]">
-          Our Beautiful Memories <span aria-hidden="true">💕</span>
+          Photo Gallery <span aria-hidden="true">💕</span>
         </h1>
         <p className="mt-2 text-[#2a1020]/70 text-[15px] sm:text-[16px] font-medium">
           A visual journey of our love—captured in moments, held forever in my heart.
